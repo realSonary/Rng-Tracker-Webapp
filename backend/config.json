@@ -1,0 +1,16 @@
+{
+  "logFilePath": "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\logs\\latest.log",
+  "seaCreatures": [
+    { "id": "yeti", "name": "Yeti", "chat_trigger": "You caught a Yeti", "drop_rate": 0.01 },
+    { "id": "megladon", "name": "Megladon", "chat_trigger": "You caught a Megladon", "drop_rate": 0.05 },
+    { "id": "great_white", "name": "Great White Shark", "chat_trigger": "You caught a Great White Shark", "drop_rate": 0.02 },
+    { "id": "tiger_shark", "name": "Tiger Shark", "chat_trigger": "You caught a Tiger Shark", "drop_rate": 0.08 },
+    { "id": "nurse_shark", "name": "Nurse Shark", "chat_trigger": "You caught a Nurse Shark", "drop_rate": 0.15 },
+    { "id": "blue_shark", "name": "Blue Shark", "chat_trigger": "You caught a Blue Shark", "drop_rate": 0.12 },
+    { "id": "sea_walker", "name": "Sea Walker", "chat_trigger": "You caught a Sea Walker", "drop_rate": 0.20 },
+    { "id": "sea_guardian", "name": "Sea Guardian", "chat_trigger": "You caught a Sea Guardian", "drop_rate": 0.10 },
+    { "id": "sea_witch", "name": "Sea Witch", "chat_trigger": "You caught a Sea Witch", "drop_rate": 0.07 },
+    { "id": "sea_archer", "name": "Sea Archer", "chat_trigger": "You caught a Sea Archer", "drop_rate": 0.10 },
+    { "id": "water_worm", "name": "Water Worm", "chat_trigger": "You caught a Water Worm", "drop_rate": 0.05 }
+  ]
+}
