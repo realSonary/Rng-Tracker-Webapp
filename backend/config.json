@@ -1,5 +1,5 @@
 {
-  "logFilePath": "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\logs\\latest.log",
+  "logFilePath": "C:\\Users\\PC\\AppData\\Roaming\\ModrinthApp\\profiles\\Skyblocker Modpack - Hypixel Skyblock\\logs\\latest.log",
   "seaCreatures": [
     { "id": "yeti", "name": "Yeti", "chat_trigger": "You caught a Yeti", "drop_rate": 0.01 },
     { "id": "megladon", "name": "Megladon", "chat_trigger": "You caught a Megladon", "drop_rate": 0.05 },
