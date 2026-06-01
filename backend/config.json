@@ -80,39 +80,39 @@
       "description": "Jerry's Workshop ice fishing",
       "seaCreatures": [
         {
+          "id": "frozen_steve",
+          "name": "Frozen Steve",
+          "chat_trigger": "Frozen Steve fell into the pond long ago",
+          "drop_rate": 0.10
+        },
+        {
           "id": "frosty",
           "name": "Frosty",
-          "chat_trigger": "You caught a Frosty",
+          "chat_trigger": "Its a Snowman! It looks harmless",
           "drop_rate": 0.15
         },
         {
           "id": "grinch",
           "name": "Grinch",
-          "chat_trigger": "You caught a Grinch",
+          "chat_trigger": "The Grinch stole Jerry's Gifts",
           "drop_rate": 0.08
-        },
-        {
-          "id": "frozen_steve",
-          "name": "Frozen Steve",
-          "chat_trigger": "You caught a Frozen Steve",
-          "drop_rate": 0.10
         },
         {
           "id": "nutcracker",
           "name": "Nutcracker",
-          "chat_trigger": "You caught a Nutcracker",
+          "chat_trigger": "You found a forgotten Nutcracker laying beneath the ice",
           "drop_rate": 0.12
         },
         {
           "id": "yeti",
           "name": "Yeti",
-          "chat_trigger": "You caught a Yeti",
+          "chat_trigger": "What is this creature!?",
           "drop_rate": 0.01
         },
         {
           "id": "reindrake",
           "name": "Reindrake",
-          "chat_trigger": "A Reindrake has appeared",
+          "chat_trigger": "A Reindrake forms from the depths.",
           "drop_rate": 0.005
         }
       ]
