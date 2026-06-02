@@ -10,7 +10,7 @@ services:
       LOG_FILE_PATH: /logs/latest.log
     volumes:
       # Mount your Minecraft logs folder (change the host path as needed)
-      - "C:/Users/Walid/AppData/Roaming/ModrinthApp/profiles/Skyblocker Modpack - Hypixel Skyblock/logs:/logs:ro"
+      - "C:/Users/YOUR_USERFOLDER/AppData/Roaming/ModrinthApp/profiles/Skyblocker Modpack - Hypixel Skyblock/logs:/logs:ro"
     restart: unless-stopped
 
   frontend:
