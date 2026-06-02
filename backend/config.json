@@ -1,5 +1,5 @@
 {
-  "logFilePath": "C:\\Users\\PC\\AppData\\Roaming\\ModrinthApp\\profiles\\Skyblocker Modpack - Hypixel Skyblock\\logs\\latest.log",
+  "logFilePath": "%appdata%/ModrinthApp/profiles/Skyblocker Modpack - Hypixel Skyblock/logs/latest.log",
   "fishingCategories": {
     "normal": {
       "name": "Normal Fishing",

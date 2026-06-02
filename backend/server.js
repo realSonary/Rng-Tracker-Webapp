@@ -255,18 +255,32 @@ function processLine(line) {
   if (!match) return;
 
   const { categoryId, creatureId, creature, isDynamic } = match;
-  const dataSource = isDynamic ? dynamicSessionData : sessionData;
-  if (!dataSource[categoryId]) return;
 
-  dataSource[categoryId].totalCatches++;
-  dataSource[categoryId].creatures[creatureId].catches++;
+  // 1. Update the primary category (static or dynamic)
+  const primaryDataSource = isDynamic ? dynamicSessionData : sessionData;
+  if (primaryDataSource[categoryId]) {
+    primaryDataSource[categoryId].totalCatches++;
+    primaryDataSource[categoryId].creatures[creatureId].catches++;
+  }
 
-  const catName = isDynamic
+  // 2. Also update any dynamic merged categories that contain this creature
+  for (const [dynId, dynCat] of Object.entries(dynamicCategories)) {
+    if (dynCat.seaCreatures.some(c => c.id === creatureId)) {
+      if (dynamicSessionData[dynId]) {
+        dynamicSessionData[dynId].totalCatches++;
+        dynamicSessionData[dynId].creatures[creatureId].catches++;
+
+        console.log(`   ➕ Also counted in merged: ${dynCat.name}`);
+      }
+    }
+  }
+
+  // Log and save
+  const primaryCatName = isDynamic
     ? dynamicCategories[categoryId].name
     : config.fishingCategories[categoryId].name;
-  console.log(`✅ [${catName}] ${creature.name} (total: ${dataSource[categoryId].creatures[creatureId].catches})`);
+  console.log(`✅ [${primaryCatName}] ${creature.name} (total: ${primaryDataSource[categoryId].creatures[creatureId].catches})`);
 
-  // Save to disk
   saveSession();
 
   // Emit update
