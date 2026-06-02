@@ -1,0 +1,356 @@
+{
+  "static": {
+    "normal": {
+      "totalCatches": 0,
+      "creatures": {
+        "squid": {
+          "id": "squid",
+          "name": "Squid",
+          "chat_trigger": "A Squid appeared.",
+          "weight": 2450,
+          "drop_rate": 0.2468265162200282,
+          "catches": 0
+        },
+        "sea_walker": {
+          "id": "sea_walker",
+          "name": "Sea Walker",
+          "chat_trigger": "You caught a Sea Walker",
+          "weight": 1630,
+          "drop_rate": 0.16421519242393715,
+          "catches": 0
+        },
+        "sea_witch": {
+          "id": "sea_witch",
+          "name": "Sea Witch",
+          "chat_trigger": "disrupted the Sea Witch",
+          "weight": 1420,
+          "drop_rate": 0.14305863389079185,
+          "catches": 0
+        },
+        "sea_guardian": {
+          "id": "sea_guardian",
+          "name": "Sea Guardian",
+          "chat_trigger": "You stumbled upon a Sea Guardian.",
+          "weight": 1220,
+          "drop_rate": 0.1229095305258916,
+          "catches": 0
+        },
+        "sea_archer": {
+          "id": "sea_archer",
+          "name": "Sea Archer",
+          "chat_trigger": "You reeled in a Sea Archer",
+          "weight": 1100,
+          "drop_rate": 0.11082006850695145,
+          "catches": 0
+        },
+        "rider_of_the_deep": {
+          "id": "rider_of_the_deep",
+          "name": "The Rider of the Deep",
+          "chat_trigger": "The Rider of the Deep has emerged.",
+          "weight": 810,
+          "drop_rate": 0.08160386862784606,
+          "catches": 0
+        },
+        "catfish": {
+          "id": "catfish",
+          "name": "Catfish",
+          "chat_trigger": "Huh? A Catfish!",
+          "weight": 510,
+          "drop_rate": 0.051380213580495666,
+          "catches": 0
+        },
+        "sea_leech": {
+          "id": "sea_leech",
+          "name": "Sea Leech",
+          "chat_trigger": "Gross! A Sea Leech!",
+          "weight": 320,
+          "drop_rate": 0.03223856538384042,
+          "catches": 0
+        },
+        "guardian_defender": {
+          "id": "guardian_defender",
+          "name": "Guardian Defender",
+          "chat_trigger": "You've discovered a Guardian Defender of the sea.",
+          "weight": 260,
+          "drop_rate": 0.02619383437437034,
+          "catches": 0
+        },
+        "deep_sea_protector": {
+          "id": "deep_sea_protector",
+          "name": "Deep Sea Protector",
+          "chat_trigger": "You have awoken the Deep Sea Protector, prepare for a battle!",
+          "weight": 170,
+          "drop_rate": 0.017126737860165223,
+          "catches": 0
+        },
+        "water_hydra": {
+          "id": "water_hydra",
+          "name": "Water Hydra",
+          "chat_trigger": "The Water Hydra has come to test your Strength.",
+          "weight": 36,
+          "drop_rate": 0.0036268386056820473,
+          "catches": 0
+        }
+      }
+    },
+    "winter": {
+      "totalCatches": 0,
+      "creatures": {
+        "frosty": {
+          "id": "frosty",
+          "name": "Frosty",
+          "chat_trigger": "Its a Snowman! It looks harmless",
+          "weight": 2875,
+          "drop_rate": 0.2875,
+          "catches": 0
+        },
+        "nutcracker": {
+          "id": "nutcracker",
+          "name": "Nutcracker",
+          "chat_trigger": "You found a forgotten Nutcracker laying beneath the ice",
+          "weight": 500,
+          "drop_rate": 0.05,
+          "catches": 0
+        },
+        "frozen_steve": {
+          "id": "frozen_steve",
+          "name": "Frozen Steve",
+          "chat_trigger": "Frozen Steve fell into the pond long ago",
+          "weight": 5000,
+          "drop_rate": 0.5,
+          "catches": 0
+        },
+        "grinch": {
+          "id": "grinch",
+          "name": "Grinch",
+          "chat_trigger": "The Grinch stole Jerry's Gifts",
+          "weight": 1500,
+          "drop_rate": 0.15,
+          "catches": 0
+        },
+        "yeti": {
+          "id": "yeti",
+          "name": "Yeti",
+          "chat_trigger": "What is this creature!?",
+          "weight": 100,
+          "drop_rate": 0.01,
+          "catches": 0
+        },
+        "reindrake": {
+          "id": "reindrake",
+          "name": "Reindrake",
+          "chat_trigger": "A Reindrake forms from the depths.",
+          "weight": 25,
+          "drop_rate": 0.0025,
+          "catches": 0
+        }
+      }
+    },
+    "lava": {
+      "totalCatches": 0,
+      "creatures": {
+        "magma_slug": {
+          "id": "magma_slug",
+          "name": "Magma Slug",
+          "chat_trigger": "From beneath the lava appears a Magma Slug",
+          "weight": 1600,
+          "drop_rate": 0.3442340791738382,
+          "catches": 0
+        },
+        "moogma": {
+          "id": "moogma",
+          "name": "Moogma",
+          "chat_trigger": "You hear a faint Moo from the lava",
+          "weight": 1200,
+          "drop_rate": 0.25817555938037867,
+          "catches": 0
+        },
+        "lava_leech": {
+          "id": "lava_leech",
+          "name": "Lava Leech",
+          "chat_trigger": "A small but fearsome Lava Leech emerges.",
+          "weight": 600,
+          "drop_rate": 0.12908777969018934,
+          "catches": 0
+        },
+        "pyroclastic_worm": {
+          "id": "pyroclastic_worm",
+          "name": "Pyroclastic Worm",
+          "chat_trigger": "You feel the heat radiating as a Pyroclastic Worm surfaces.",
+          "weight": 400,
+          "drop_rate": 0.08605851979345955,
+          "catches": 0
+        },
+        "lava_flame": {
+          "id": "lava_flame",
+          "name": "Lava Flame",
+          "chat_trigger": "A Lava Flame flies out from beneath the lava.",
+          "weight": 360,
+          "drop_rate": 0.0774526678141136,
+          "catches": 0
+        },
+        "fire_eel": {
+          "id": "fire_eel",
+          "name": "Fire Eel",
+          "chat_trigger": "A Fire Eel slithers out from the depths",
+          "weight": 280,
+          "drop_rate": 0.060240963855421686,
+          "catches": 0
+        },
+        "taurus": {
+          "id": "taurus",
+          "name": "Taurus",
+          "chat_trigger": "Taurus and his steed emerge.",
+          "weight": 160,
+          "drop_rate": 0.03442340791738382,
+          "catches": 0
+        },
+        "thunder": {
+          "id": "thunder",
+          "name": "Thunder",
+          "chat_trigger": "You hear a massive rumble as Thunder emerges.",
+          "weight": 40,
+          "drop_rate": 0.008605851979345954,
+          "catches": 0
+        },
+        "lord_jawbus": {
+          "id": "lord_jawbus",
+          "name": "Lord Jawbus",
+          "chat_trigger": "You have angered a legendary creature",
+          "weight": 8,
+          "drop_rate": 0.0017211703958691911,
+          "catches": 0
+        }
+      }
+    },
+    "shark": {
+      "totalCatches": 0,
+      "creatures": {
+        "nurse_shark": {
+          "id": "nurse_shark",
+          "name": "Nurse Shark",
+          "chat_trigger": "A tiny fin emerges from the water",
+          "weight": 1100,
+          "drop_rate": 0.5238095238095238,
+          "catches": 0
+        },
+        "blue_shark": {
+          "id": "blue_shark",
+          "name": "Blue Shark",
+          "chat_trigger": "You spot a fin as blue as the water it came from",
+          "weight": 550,
+          "drop_rate": 0.2619047619047619,
+          "catches": 0
+        },
+        "tiger_shark": {
+          "id": "tiger_shark",
+          "name": "Tiger Shark",
+          "chat_trigger": "A striped beast bounds from the depths",
+          "weight": 300,
+          "drop_rate": 0.14285714285714285,
+          "catches": 0
+        },
+        "great_white": {
+          "id": "great_white",
+          "name": "Great White Shark",
+          "chat_trigger": "Hide no longer, a Great White Shark has tracked your scent and thirsts for your blood!",
+          "weight": 150,
+          "drop_rate": 0.07142857142857142,
+          "catches": 0
+        }
+      }
+    },
+    "galatea": {
+      "totalCatches": 0,
+      "creatures": {
+        "bogged": {
+          "id": "bogged",
+          "name": "Bogged",
+          "chat_trigger": "You've hooked a Bogged!",
+          "weight": 5000,
+          "drop_rate": 0.5,
+          "catches": 0
+        },
+        "wetwing": {
+          "id": "wetwing",
+          "name": "Wetwing",
+          "chat_trigger": "Look! A Wetwing emerges!",
+          "weight": 2875,
+          "drop_rate": 0.2875,
+          "catches": 0
+        },
+        "tadgang": {
+          "id": "tadgang",
+          "name": "Tadgang",
+          "chat_trigger": "A gang of Liltads!",
+          "weight": 1500,
+          "drop_rate": 0.15,
+          "catches": 0
+        },
+        "ent": {
+          "id": "ent",
+          "name": "Ent",
+          "chat_trigger": "You've hooked an Ent, as ancient as the forest itself.",
+          "weight": 500,
+          "drop_rate": 0.05,
+          "catches": 0
+        },
+        "loch_emperor": {
+          "id": "loch_emperor",
+          "name": "The Loch Emperor",
+          "chat_trigger": "The Loch Emperor arises from the depths.",
+          "weight": 100,
+          "drop_rate": 0.01,
+          "catches": 0
+        },
+        "nessie": {
+          "id": "nessie",
+          "name": "Nessie",
+          "chat_trigger": "You've caused a disturbance in the loch. Could it be... Nessie?",
+          "weight": 25,
+          "drop_rate": 0.0025,
+          "catches": 0
+        }
+      }
+    },
+    "water_hotspot": {
+      "totalCatches": 0,
+      "creatures": {
+        "frog_man": {
+          "id": "frog_man",
+          "name": "Frog Man",
+          "chat_trigger": "Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!!",
+          "weight": 1000,
+          "drop_rate": 0.78125,
+          "catches": 0
+        },
+        "snapping_turtle": {
+          "id": "snapping_turtle",
+          "name": "Snapping Turtle",
+          "chat_trigger": "A Snapping Turtle is coming your way, and it's ANGRY!",
+          "weight": 250,
+          "drop_rate": 0.1953125,
+          "catches": 0
+        },
+        "blue_ringed_octopus": {
+          "id": "blue_ringed_octopus",
+          "name": "Blue Ringed Octopus",
+          "chat_trigger": "A garish set of tentacles arise. It's a Blue Ringed Octopus!",
+          "weight": 25,
+          "drop_rate": 0.01953125,
+          "catches": 0
+        },
+        "wiki_tiki": {
+          "id": "wiki_tiki",
+          "name": "Wiki Tiki",
+          "chat_trigger": "The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.",
+          "weight": 5,
+          "drop_rate": 0.00390625,
+          "catches": 0
+        }
+      }
+    }
+  },
+  "dynamicCategories": {},
+  "dynamicSessionData": {}
+}
