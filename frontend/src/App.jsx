@@ -32,7 +32,7 @@ function App() {
   const [mergeName, setMergeName] = useState('')
 
   useEffect(() => {
-    const newSocket = io('http://localhost:3001')
+    const newSocket = io(import.meta.env.VITE_SOCKET_URL || 'http://localhost:3001')
     setSocket(newSocket)
 
     newSocket.on('initialState', ({ data, categories }) => {

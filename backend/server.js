@@ -5,6 +5,11 @@ const { Server } = require('socket.io');
 const http = require('http');
 const config = require('./config.json');
 
+// Override log file path from environment variable if set
+if (process.env.LOG_FILE_PATH) {
+  config.logFilePath = process.env.LOG_FILE_PATH;
+}
+
 // ---------- HTTP + Socket.io ----------
 const server = http.createServer();
 const io = new Server(server, {

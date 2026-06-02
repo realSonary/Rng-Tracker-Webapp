@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "3001:3001"
+    environment:
+      # Path inside the container – we'll mount the log directory below
+      LOG_FILE_PATH: /logs/latest.log
+    volumes:
+      # Mount your Minecraft logs folder (change the host path as needed)
+      - "C:/Users/Walid/AppData/Roaming/ModrinthApp/profiles/Skyblocker Modpack - Hypixel Skyblock/logs:/logs:ro"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        # The URL the browser will use to reach the backend (use service name)
+        VITE_SOCKET_URL: http://localhost:3001
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
